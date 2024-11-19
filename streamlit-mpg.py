@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title('Car gas consumption')
-df = pd.read_csv('https://storage.googleapis.com/scsu-data-science/mpg.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/mpg.csv')
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')

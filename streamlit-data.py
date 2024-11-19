@@ -8,7 +8,7 @@ col1.metric("Temperature", "70 °F", "1.2 °F")
 col2.metric("Wind", "9 mph", "-8%")
 col3.metric("Humidity", "86%", "4%")
 
-url = 'https://storage.googleapis.com/scsu-data-science/tips.csv'
+url = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/tips.csv'
 df = pd.read_csv(url)
 
 st.subheader('st.dataframe, width = 600px, height = 200px')

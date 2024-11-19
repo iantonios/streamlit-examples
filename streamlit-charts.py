@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-url = 'https://storage.googleapis.com/scsu-data-science/kc_house_data.csv'
+url = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/kc_house_mini.csv'
 df = pd.read_csv(url)
 
 cols = ['price', 'sqft_living', 'yr_built', 'lat', 'long']

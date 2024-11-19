@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter
 
 
-URL = 'https://storage.googleapis.com/scsu-data-science/brooklyn_bridge_pedestrians.csv'
+URL = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/brooklyn_bridge_pedestrians.csv'
 bridge = pd.read_csv(URL,
                      parse_dates=True,
                      index_col='hour_beginning')

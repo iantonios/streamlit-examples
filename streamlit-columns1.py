@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-url = 'https://storage.googleapis.com/scsu-data-science/tips.csv'
+url = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/tips.csv'
 df = pd.read_csv(url)
 
 st.title('Restaurant spending')

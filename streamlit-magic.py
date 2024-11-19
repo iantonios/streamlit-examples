@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-url = 'https://storage.googleapis.com/scsu-data-science/diabetes_nan.csv'
+url = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/diabetes_nan.csv'
 df = pd.read_csv(url)
 
 # Magic!

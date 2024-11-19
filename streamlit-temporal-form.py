@@ -8,7 +8,7 @@ import datetime
 # Prevents loading the file every time the user interacts with widgets
 @st.cache_data
 def load_data():
-    URL = 'https://storage.googleapis.com/scsu-data-science/brooklyn_bridge_pedestrians.csv'
+    URL = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/brooklyn_bridge_pedestrians.csv'
     bridge = pd.read_csv(URL,
                          parse_dates=True,
                          index_col='hour_beginning')
